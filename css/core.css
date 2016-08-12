@@ -8,6 +8,7 @@ body * {
 	text-align: justify;
 	font-size: 0;
 	vertical-align: top;
+	height: 100%;
 }
 
 .grid .col-full, .grid .col-half, .grid .col-third, .grid .col-two-third, .grid .col-fourth, .grid .col-fifth {
@@ -68,13 +69,21 @@ a:hover {color:#222;}
 }
 
 .btn-circle {
-	background:#aaa;
-	color:#fff !important;
-	width:40px;
-	height:40px;
-	display:inline-block;
-	line-height:40px;
-	border-radius:50%;
+	    background: #aaa;
+    color: #fff !important;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+}
+.cart{
+	    bottom: 80px;
+}
+.plus{
+	bottom: 30px;
 }
 
 .btn-circle:hover {
